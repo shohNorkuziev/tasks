@@ -1,0 +1,14 @@
+.div{
+    margin: 10px;
+    padding: 10px;
+    float: left;
+    border: 1px solid green;
+}
+.window{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    border: 1px solid black;
+    background: skyblue;
+    padding: 15px;
+}
