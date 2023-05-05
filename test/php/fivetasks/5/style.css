@@ -1,0 +1,45 @@
+input[type="radio"] {
+    margin-right: 10px;
+
+  }
+  div {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+  }
+  div label{
+    margin-left: 60px;
+  }
+  .ass1{
+    position: relative;
+    top: -12px;
+    margin-left: 148px;
+  }
+.ass2{
+    position: relative;
+    top: -12px;
+    margin-left: 25px;
+  }
+  .ass3{
+    position: relative;
+    top: -12px;
+    margin-left: 42px;
+  }
+  .ass4{
+    margin-left: 27px;
+  }
+  .ass5{
+    margin-left: 38px;
+  }
+  form{
+    background-color: rgb(231, 239, 241);
+  }
+  select{
+    margin-left: 30px;
+    width: 175px;
+  }
+input[type="number"]{
+    width: 60px;
+    background-color: rgb(208, 222, 226);
+    border: 1px solid white;
+}
