@@ -11,7 +11,7 @@
         $arr=['a','b','c','d','e'];
         if(empty($_GET)){
             foreach($arr as $value){
-                echo '<a href="http://averin/PHP_EX_2/ex5/?lab='.$value.'">'.$value.'</a><br>';
+                echo '<a href="http://PHP_EX_2/ex5/?lab='.$value.'">'.$value.'</a><br>';
             }
         }
         else{

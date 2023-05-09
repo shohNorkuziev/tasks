@@ -1,43 +1,21 @@
-<?
-class Math
-{
-    public $a;
-    public $b;
-    public function __construct($a,$b)
-    {
-        $this->a=$a;
-        $this->b=$b;
+<?php
+class Math {
+    public static function add($a, $b) {
+      return $a + $b;
     }
-    public function add()
-    {
-        if(is_numeric($this->a) && is_numeric($this->b)) {
-            return ($this->a)+($this->b);
-        } else {
-            return false;
-        }
+  
+    public static function sub($a, $b) {
+      return $a - $b;
     }
-    public function sub()
-    {
-        if(is_numeric($this->a) && is_numeric($this->b)) {
-            return ($this->a)-($this->b);
-        } else {
-            return false;
-        }
+  
+    public static function mul($a, $b) {
+      return $a * $b;
     }
-    public function div()
-    {
-        if(is_numeric($this->a) && is_numeric($this->b) && $this->b != 0) {
-            return ($this->a)/($this->b);
-        } else {
-            return false;
-        }
+  
+    public static function div($a, $b) {
+      if ($b == 0) {
+        return false;
+      }
+      return $a / $b;
     }
-    public function mul()
-    {
-        if(is_numeric($this->a) && is_numeric($this->b)) {
-            return ($this->a)*($this->b);
-        } else {
-            return false;
-        }
-    }
-}
+  }?>
